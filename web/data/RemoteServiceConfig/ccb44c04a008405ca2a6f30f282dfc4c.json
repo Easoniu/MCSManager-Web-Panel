@@ -1,0 +1,15 @@
+{
+    "ip": "26.233.251.150",
+    "port": 24444,
+    "prefix": "",
+    "remarks": "雲端電腦",
+    "apiKey": "9c34357130db4ac2cfae15701e54cf9a7aa1c34ba1be71b",
+    "connectOpts": {
+        "multiplex": false,
+        "reconnectionDelayMax": 3000,
+        "timeout": 3000,
+        "reconnection": true,
+        "reconnectionAttempts": 20,
+        "rejectUnauthorized": false
+    }
+}

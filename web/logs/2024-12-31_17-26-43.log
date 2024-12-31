@@ -1,0 +1,60 @@
+[12/31 17:20:29] [INFO] 本機使用者數：1
+[12/31 17:20:29] [INFO] 正在嘗試連線遠端節點:[ccb44c04a008405ca2a6f30f282dfc4c] [ws://26.233.251.150:24444/雲端電腦]
+[12/31 17:20:29] [INFO] 遠端節點數：1
+[12/31 17:20:29] [INFO] ==================================
+[12/31 17:20:29] [INFO] 面板端已啟動
+[12/31 17:20:29] [INFO] 專案參考: https://github.com/mcsmanager
+[12/31 17:20:29] [INFO] 存取位址: http://localhost:23333
+[12/31 17:20:29] [INFO] 軟體公網存取需開放端口 23333 與守護程式連接端口
+[12/31 17:20:29] [INFO] 你可以使用 Ctrl+C 快速鍵即可關閉程式
+[12/31 17:20:29] [INFO] ==================================
+[12/31 17:20:30] [INFO] [HTTP] GET: http://localhost:23333/
+[12/31 17:20:30] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:31] [INFO] [HTTP] GET: http://localhost:23333/assets/index-64e20a3a.js
+[12/31 17:20:31] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:31] [INFO] [HTTP] GET: http://localhost:23333/assets/vue-e790828e.js
+[12/31 17:20:31] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:31] [INFO] [HTTP] GET: http://localhost:23333/assets/ant-29992a7d.js
+[12/31 17:20:31] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:31] [INFO] [HTTP] GET: http://localhost:23333/assets/ant-25a63267.css
+[12/31 17:20:31] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:31] [INFO] [HTTP] GET: http://localhost:23333/assets/ant-es-8d8f5c96.js
+[12/31 17:20:31] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/api/auth/status
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/assets/zh_TW-795c4c32.js
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/assets/mount-51d7db67.js
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/assets/echart-372a619d.js
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/assets/zrender-bd06e061.js
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/assets/xterm-a429e2b3.js
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/assets/codemirror-df17d2c3.js
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/assets/htmlparser2-be168f8e.js
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/assets/mount-167cc0e2.css
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:34] [INFO] [HTTP] GET: http://localhost:23333/api/auth/
+[12/31 17:20:34] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:35] [INFO] [HTTP] GET: http://localhost:23333/assets/logo-586bf317.png
+[12/31 17:20:35] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:35] [INFO] [HTTP] GET: http://localhost:23333/upload_files/c3e26728-7c2e-44c4-8e94-95ed0497ae33.jpg
+[12/31 17:20:35] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:35] [INFO] [HTTP] GET: http://localhost:23333/api/auth/login_info
+[12/31 17:20:35] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:42] [INFO] [HTTP] POST: http://localhost:23333/api/auth/login
+[12/31 17:20:42] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/31 17:20:42] [INFO] ------ 使用者登入事件 ------
+[12/31 17:20:42] [INFO] [LOGIN] IP: ::1 Login EasonLiu5 successful!
+[12/31 17:20:42] [INFO] [LOGIN] Token: 4b57d60b4f0247e9b5a108a14cca90ef1735636842481
+[12/31 17:20:42] [INFO] ------ 使用者登入事件 ------
+[12/31 17:20:43] [INFO] [HTTP] GET: http://localhost:23333/api/auth/
+[12/31 17:20:43] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/31 17:21:29] [WARN] Daemon exception detected: 雲端電腦 26.233.251.150:24444, reconnecting...
+[12/31 17:21:29] [INFO] 使用者啟動重複連線請求，現進行重設連線配置:[ccb44c04a008405ca2a6f30f282dfc4c] [ws://26.233.251.150:24444/雲端電腦]
+[12/31 17:21:29] [INFO] 主動斷開遠端節點 [ccb44c04a008405ca2a6f30f282dfc4c] [26.233.251.150:24444] 
+[12/31 17:21:29] [INFO] 正在嘗試連線遠端節點:[ccb44c04a008405ca2a6f30f282dfc4c] [ws://26.233.251.150:24444/雲端電腦]

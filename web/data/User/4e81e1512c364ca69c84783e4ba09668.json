@@ -1,0 +1,15 @@
+{
+    "uuid": "4e81e1512c364ca69c84783e4ba09668",
+    "userName": "EasonLiu5",
+    "passWord": "$2a$10$qgQsTJpPN6Yl6laEufG5PO3qdnk/ordaaLMfaiJS/z2UftN0lKc7O",
+    "passWordType": 1,
+    "salt": "",
+    "permission": 10,
+    "registerTime": "2024/12/30 下午7:39:16",
+    "loginTime": "",
+    "instances": [],
+    "apiKey": "",
+    "isInit": false,
+    "secret": "",
+    "open2FA": false
+}

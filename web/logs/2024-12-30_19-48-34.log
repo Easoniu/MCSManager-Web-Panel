@@ -1,0 +1,130 @@
+[12/30 19:39:02] [INFO] Number of local users: 0
+[12/30 19:39:02] [INFO] Attempting to read local daemon D:\伺服器\mcsmanager\daemon\data\Config\global.json
+[12/30 19:39:02] [INFO] Detected local daemon, automatically obtaining key and port...
+[12/30 19:39:02] [INFO] Attempting to connect to remote daemon:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:39:02] [INFO] Number of remote daemons: 1
+[12/30 19:39:02] [INFO] ==================================
+[12/30 19:39:02] [INFO] Control panel has started
+[12/30 19:39:02] [INFO] Project Reference: https://github.com/mcsmanager
+[12/30 19:39:02] [INFO] Access URL: http://localhost:23333
+[12/30 19:39:02] [INFO] Public access requires opening ports 23333 and the daemon's port.
+[12/30 19:39:02] [INFO] You can use the Ctrl+C shortcut to close the program
+[12/30 19:39:02] [INFO] ==================================
+[12/30 19:39:02] [INFO] Connected to remote daemon [5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:39:02] [INFO] Set daemon language (localhost:24444/) language: en_us
+[12/30 19:39:02] [INFO] Remote daemon [5cd5ffbbd7e44915a50491cfeef8ab15] [localhost:24444] key validation successful
+[12/30 19:39:03] [INFO] [HTTP] GET: http://localhost:23333/
+[12/30 19:39:03] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:03] [INFO] [HTTP] GET: http://localhost:23333/assets/index-64e20a3a.js
+[12/30 19:39:03] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:03] [INFO] [HTTP] GET: http://localhost:23333/assets/vue-e790828e.js
+[12/30 19:39:03] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:03] [INFO] [HTTP] GET: http://localhost:23333/assets/ant-29992a7d.js
+[12/30 19:39:03] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:03] [INFO] [HTTP] GET: http://localhost:23333/assets/ant-25a63267.css
+[12/30 19:39:03] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:03] [INFO] [HTTP] GET: http://localhost:23333/assets/ant-es-8d8f5c96.js
+[12/30 19:39:03] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:05] [INFO] [HTTP] GET: http://localhost:23333/api/auth/status
+[12/30 19:39:05] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:05] [INFO] [HTTP] GET: http://localhost:23333/favicon.ico
+[12/30 19:39:05] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:06] [WARN] Programming language changed zh_tw
+[12/30 19:39:06] [INFO] 設定節點語言 (localhost:24444/) language: zh_tw
+[12/30 19:39:06] [INFO] [HTTP] GET: http://localhost:23333/assets/zh_TW-795c4c32.js
+[12/30 19:39:06] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:06] [INFO] [HTTP] GET: http://localhost:23333/assets/mount-51d7db67.js
+[12/30 19:39:06] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:06] [INFO] [HTTP] GET: http://localhost:23333/assets/echart-372a619d.js
+[12/30 19:39:06] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:06] [INFO] [HTTP] GET: http://localhost:23333/assets/zrender-bd06e061.js
+[12/30 19:39:06] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:06] [INFO] [HTTP] GET: http://localhost:23333/assets/xterm-a429e2b3.js
+[12/30 19:39:06] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:06] [INFO] [HTTP] GET: http://localhost:23333/assets/codemirror-df17d2c3.js
+[12/30 19:39:06] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:06] [INFO] [HTTP] GET: http://localhost:23333/assets/htmlparser2-be168f8e.js
+[12/30 19:39:06] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:06] [INFO] [HTTP] GET: http://localhost:23333/assets/mount-167cc0e2.css
+[12/30 19:39:06] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:07] [INFO] [HTTP] GET: http://localhost:23333/api/auth/
+[12/30 19:39:07] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:07] [INFO] [HTTP] GET: http://localhost:23333/assets/logo-586bf317.png
+[12/30 19:39:07] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:16] [INFO] [HTTP] POST: http://localhost:23333/api/auth/install
+[12/30 19:39:16] [INFO] [HTTP] IP: ::1 USER: undefined UUID: undefined
+[12/30 19:39:16] [INFO] [安裝面板] 正在初始化面板管理員帳號: EasonLiu5
+[12/30 19:39:17] [INFO] ------ 使用者登入事件 ------
+[12/30 19:39:17] [INFO] [LOGIN] IP: ::1 Login EasonLiu5 successful!
+[12/30 19:39:17] [INFO] [LOGIN] Token: b9cb030f63af4a00b61e31c3736c918c1735558757270
+[12/30 19:39:17] [INFO] ------ 使用者登入事件 ------
+[12/30 19:39:17] [INFO] [HTTP] GET: http://localhost:23333/api/auth/status
+[12/30 19:39:17] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:39:17] [INFO] [HTTP] GET: http://localhost:23333/api/auth/
+[12/30 19:39:17] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:39:31] [INFO] [HTTP] GET: http://localhost:23333/api/service/remote_services_list?token=b9cb030f63af4a00b61e31c3736c918c1735558757270
+[12/30 19:39:31] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:39:32] [INFO] 遠端節點 [5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/] 已中斷
+[12/30 19:39:35] [INFO] [HTTP] GET: http://localhost:23333/
+[12/30 19:39:35] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:39:35] [INFO] [HTTP] GET: http://localhost:23333/api/auth/status
+[12/30 19:39:35] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:39:35] [INFO] [HTTP] GET: http://localhost:23333/api/auth/
+[12/30 19:39:35] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:39:37] [INFO] [HTTP] GET: http://localhost:23333/api/service/remote_services_list?token=b9cb030f63af4a00b61e31c3736c918c1735558757270
+[12/30 19:39:37] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:40:02] [WARN] Daemon exception detected:  localhost:24444, reconnecting...
+[12/30 19:40:02] [INFO] 使用者啟動重複連線請求，現進行重設連線配置:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:40:02] [INFO] 主動斷開遠端節點 [5cd5ffbbd7e44915a50491cfeef8ab15] [localhost:24444] 
+[12/30 19:40:02] [INFO] 正在嘗試連線遠端節點:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:40:38] [INFO] [HTTP] GET: http://localhost:23333/
+[12/30 19:40:38] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:40:38] [INFO] [HTTP] GET: http://localhost:23333/api/auth/status
+[12/30 19:40:38] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:40:38] [INFO] [HTTP] GET: http://localhost:23333/api/auth/
+[12/30 19:40:38] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:40:39] [INFO] [HTTP] GET: http://localhost:23333/api/service/remote_services_list?token=b9cb030f63af4a00b61e31c3736c918c1735558757270
+[12/30 19:40:39] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:41:02] [WARN] Daemon exception detected:  localhost:24444, reconnecting...
+[12/30 19:41:02] [INFO] 使用者啟動重複連線請求，現進行重設連線配置:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:41:02] [INFO] 主動斷開遠端節點 [5cd5ffbbd7e44915a50491cfeef8ab15] [localhost:24444] 
+[12/30 19:41:02] [INFO] 正在嘗試連線遠端節點:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:41:08] [INFO] [HTTP] GET: http://localhost:23333/api/service/remote_services_list?token=b9cb030f63af4a00b61e31c3736c918c1735558757270
+[12/30 19:41:08] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:41:08] [INFO] [HTTP] GET: http://localhost:23333/api/service/remote_service_instances?daemonId=5cd5ffbbd7e44915a50491cfeef8ab15&page=1&page_size=20&status=&instance_name=&tag=[]&token=b9cb030f63af4a00b61e31c3736c918c1735558757270
+[12/30 19:41:08] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:41:09] [INFO] [HTTP] GET: http://localhost:23333/api/auth/search?userName=&page=1&page_size=20&role=&token=b9cb030f63af4a00b61e31c3736c918c1735558757270
+[12/30 19:41:09] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:42:02] [WARN] Daemon exception detected:  localhost:24444, reconnecting...
+[12/30 19:42:02] [INFO] 使用者啟動重複連線請求，現進行重設連線配置:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:42:02] [INFO] 主動斷開遠端節點 [5cd5ffbbd7e44915a50491cfeef8ab15] [localhost:24444] 
+[12/30 19:42:02] [INFO] 正在嘗試連線遠端節點:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:43:02] [WARN] Daemon exception detected:  localhost:24444, reconnecting...
+[12/30 19:43:02] [INFO] 使用者啟動重複連線請求，現進行重設連線配置:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:43:02] [INFO] 主動斷開遠端節點 [5cd5ffbbd7e44915a50491cfeef8ab15] [localhost:24444] 
+[12/30 19:43:02] [INFO] 正在嘗試連線遠端節點:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:44:02] [WARN] Daemon exception detected:  localhost:24444, reconnecting...
+[12/30 19:44:02] [INFO] 使用者啟動重複連線請求，現進行重設連線配置:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:44:02] [INFO] 主動斷開遠端節點 [5cd5ffbbd7e44915a50491cfeef8ab15] [localhost:24444] 
+[12/30 19:44:02] [INFO] 正在嘗試連線遠端節點:[5cd5ffbbd7e44915a50491cfeef8ab15] [ws://localhost:24444/]
+[12/30 19:44:22] [INFO] [HTTP] POST: http://localhost:23333/api/service/remote_service?token=b9cb030f63af4a00b61e31c3736c918c1735558757270
+[12/30 19:44:22] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:44:22] [INFO] 正在嘗試連線遠端節點:[ccb44c04a008405ca2a6f30f282dfc4c] [ws://26.233.251.150:24444/Minecraft伺服器]
+[12/30 19:44:22] [INFO] 遠端節點 [ccb44c04a008405ca2a6f30f282dfc4c] [ws://26.233.251.150:24444/Minecraft伺服器] 已連接
+[12/30 19:44:23] [INFO] 設定節點語言 (26.233.251.150:24444/Minecraft伺服器) language: zh_tw
+[12/30 19:44:23] [INFO] 遠端節點 [ccb44c04a008405ca2a6f30f282dfc4c] [26.233.251.150:24444] 金鑰驗證成功
+[12/30 19:44:28] [INFO] [HTTP] DELETE: http://localhost:23333/api/service/remote_service?uuid=5cd5ffbbd7e44915a50491cfeef8ab15&token=b9cb030f63af4a00b61e31c3736c918c1735558757270
+[12/30 19:44:28] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:44:28] [INFO] 主動斷開遠端節點 [5cd5ffbbd7e44915a50491cfeef8ab15] [localhost:24444] 
+[12/30 19:46:30] [INFO] [HTTP] GET: http://localhost:23333/
+[12/30 19:46:30] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:46:30] [INFO] [HTTP] GET: http://localhost:23333/api/auth/status
+[12/30 19:46:30] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:46:31] [INFO] [HTTP] GET: http://localhost:23333/api/auth/
+[12/30 19:46:31] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:46:33] [INFO] [HTTP] GET: http://localhost:23333/
+[12/30 19:46:33] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:46:33] [INFO] [HTTP] GET: http://localhost:23333/api/auth/status
+[12/30 19:46:33] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668
+[12/30 19:46:33] [INFO] [HTTP] GET: http://localhost:23333/api/auth/
+[12/30 19:46:33] [INFO] [HTTP] IP: ::1 USER: EasonLiu5 UUID: 4e81e1512c364ca69c84783e4ba09668

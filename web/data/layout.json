@@ -1,0 +1,466 @@
+[
+  {
+    "page": "__settings__",
+    "items": [],
+    "theme": {
+      "backgroundImage": "/upload_files/c3e26728-7c2e-44c4-8e94-95ed0497ae33.jpg"
+    }
+  },
+  {
+    "page": "/",
+    "items": [
+      {
+        "id": "e02fc182-5216-46e2-820f-6a53aaed8516",
+        "type": "StatusBlock",
+        "title": "節點在線數",
+        "meta": {
+          "type": "node"
+        },
+        "width": 2,
+        "description": "用於管理者檢視伺服器資料",
+        "height": "100px"
+      },
+      {
+        "id": "e4324f1e-6ff3-468b-826e-6f47e1072333",
+        "type": "StatusBlock",
+        "title": "系統資源資訊",
+        "meta": {
+          "type": "system"
+        },
+        "width": 2,
+        "description": "用於管理者檢視伺服器資料",
+        "height": "200px"
+      },
+      {
+        "id": "2c5059b1-65c3-4961-a4fa-bf68fe81ea7f",
+        "meta": {},
+        "type": "NodeOverview",
+        "title": "節點狀態總覽",
+        "width": 8,
+        "description": "用於管理者檢視伺服器資料",
+        "height": "100px"
+      },
+      {
+        "id": "87e813e0-36c3-4995-9a1d-587b3651e582",
+        "meta": {},
+        "type": "DataOverview",
+        "title": "資料總覽",
+        "width": 12,
+        "description": "用於管理者檢視伺服器資料",
+        "height": "400px"
+      },
+      {
+        "id": "954447cd-a4b4-45c9-bbf8-837cc8d14241",
+        "meta": {},
+        "type": "RequestChart",
+        "title": "介面請求量狀態",
+        "width": 6,
+        "description": "用於管理者檢視伺服器資料",
+        "height": "200px"
+      },
+      {
+        "id": "12e31e56-0964-4060-a2e8-a0462093c90a",
+        "meta": {},
+        "type": "InstanceChart",
+        "title": "應用實例運作狀態",
+        "width": 6,
+        "description": "用於管理者檢視伺服器資料",
+        "height": "200px"
+      }
+    ]
+  },
+  {
+    "page": "/instances",
+    "items": [
+      {
+        "id": "70208b1c-6f44-4978-8a49-d828b58e4848",
+        "meta": {},
+        "type": "InstanceList",
+        "title": "應用實例",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "e6ee17a1-b367-4db2-a7d2-01e9ff3e02ce",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/instances/terminal",
+    "items": [
+      {
+        "id": "9b49865b-279e-4733-83b9-3487cb1f5bf0",
+        "meta": {
+          "viewType": "inner"
+        },
+        "type": "Terminal",
+        "title": "控制台",
+        "width": 12,
+        "height": "600px",
+        "disableDelete": true
+      },
+      {
+        "id": "1c659bf3-6855-4cd4-a540-5eb2b1a3861d",
+        "meta": {},
+        "type": "InstanceBaseInfo",
+        "title": "基本資訊",
+        "width": 4,
+        "height": "200px"
+      },
+      {
+        "id": "61b1649d-2ffe-45d0-bd5b-09d816f0d4a1",
+        "meta": {},
+        "type": "InstanceManagerBtns",
+        "title": "功能組",
+        "width": 8,
+        "height": "200px",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/instances/terminal/files",
+    "items": [
+      {
+        "id": "2c2f322a-f7d5-4a45-bedb-4d108edf147d",
+        "meta": {},
+        "type": "InstanceFileManager",
+        "title": "檔案管理",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "59d233cf-4d4f-4f2a-b8cd-6757979a58df",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/instances/terminal/serverConfig",
+    "items": [
+      {
+        "id": "9924fc0e-7e23-424d-b564-1ce5aeae8ff1",
+        "meta": {},
+        "type": "InstanceServerConfigOverview",
+        "title": "伺服端設定檔",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "7b6c0eec-c557-48cb-b265-2039435e99cd",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/instances/terminal/serverConfig/fileEdit",
+    "items": [
+      {
+        "id": "3c24447f-3f24-418b-b095-99c5c0d2bf81",
+        "meta": {},
+        "type": "InstanceServerConfigFile",
+        "title": "編輯伺服端設定檔",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "864a2d9e-179f-4149-9bae-511bce058aa3",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/instances/schedule",
+    "items": [
+      {
+        "id": "00c6d636-3638-4484-b7b8-efbccef789b4",
+        "meta": {},
+        "type": "Schedule",
+        "title": "排程任務",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "513a34bf-7c5f-45c6-a4de-f33fd936a3f5",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/users",
+    "items": [
+      {
+        "id": "fd436f52-7812-43eb-a7fb-123b51e61f70",
+        "meta": {},
+        "type": "UserList",
+        "title": "使用者清單",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "09241fc0-1c9d-465b-93c7-f517e53d969c",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/users/resources",
+    "items": [
+      {
+        "id": "94a5e598-3c4b-436f-9105-d1e1c643808f",
+        "meta": {},
+        "type": "UserAccessSettings",
+        "title": "使用者資源管理",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "353b1bf9-1b4e-4338-994f-678c3fb3ad5f",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/settings",
+    "items": [
+      {
+        "id": "d8b7aaea-d68d-416c-b40e-187d7dd1288e",
+        "meta": {},
+        "type": "Settings",
+        "title": "系統設定",
+        "width": 8,
+        "height": "800px",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/node",
+    "items": [
+      {
+        "id": "2f38a66a-599d-40e8-a426-aa476c54fcf8",
+        "meta": {},
+        "type": "NodeList",
+        "title": "遠端節點清單",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/node/image",
+    "items": [
+      {
+        "id": "d2dd7de1-fdc4-48ad-8f5f-a3e463724822",
+        "meta": {},
+        "type": "ImageManager",
+        "title": "映像管理",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "183ccea9-edb8-4eb0-ad85-c5ec7ea232c8",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/node/image/new",
+    "items": [
+      {
+        "id": "812b041b-6f77-4699-a75c-374024f1a219",
+        "meta": {},
+        "type": "NewImage",
+        "title": "建立映像",
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      },
+      {
+        "id": "afe65220-5a6f-4f47-8336-81df44acd0e6",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/quickstart",
+    "items": [
+      {
+        "id": "165afa16-6115-456f-8767-dc40c251a3f4",
+        "meta": {},
+        "type": "QuickStartFlow",
+        "title": "快速部署應用程式實例",
+        "width": 8,
+        "height": "unset"
+      }
+    ]
+  },
+  {
+    "page": "/quickstart/minecraft",
+    "items": [
+      {
+        "id": "dca66f49-a6ae-4032-944c-8375956077d8",
+        "meta": {},
+        "type": "McPreset",
+        "title": "",
+        "width": 12,
+        "height": "unset"
+      },
+      {
+        "id": "4357baf2-8309-44c6-ab36-389a31480e91",
+        "meta": {},
+        "type": "EmptyCard",
+        "title": "",
+        "width": 12,
+        "height": "100px"
+      }
+    ]
+  },
+  {
+    "page": "/customer",
+    "items": [
+      {
+        "id": "0a229e81-f1ac-4e5b-afcf-a2b8db99b777",
+        "type": "UserStatusBlock",
+        "title": "實例總計",
+        "meta": {
+          "type": "instance_all"
+        },
+        "width": 3,
+        "height": "200px",
+        "disableDelete": true
+      },
+      {
+        "id": "24fdaba3-f1eb-4199-a739-c8c5e92d7338",
+        "type": "UserStatusBlock",
+        "title": "正在運作",
+        "meta": {
+          "type": "instance_running"
+        },
+        "width": 3,
+        "height": "200px",
+        "disableDelete": true
+      },
+      {
+        "id": "2aa2afae-a96d-4034-8b5c-c91509d482e4",
+        "type": "UserStatusBlock",
+        "title": "未執行",
+        "meta": {
+          "type": "instance_stop"
+        },
+        "width": 3,
+        "height": "200px",
+        "disableDelete": true
+      },
+      {
+        "id": "c9fd7df1-9bfd-469d-9111-cfd37845f8cd",
+        "type": "UserStatusBlock",
+        "title": "維護中",
+        "meta": {
+          "type": "instance_error"
+        },
+        "width": 3,
+        "height": "200px",
+        "disableDelete": true
+      },
+      {
+        "id": "c107f93c-5f66-4198-837a-1f7ae4cffeaf",
+        "type": "UserInstanceList",
+        "title": "實例清單",
+        "meta": {
+          "type": "instance_error"
+        },
+        "width": 12,
+        "height": "unset",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/login",
+    "items": [
+      {
+        "id": "2760f3ba-1857-4fa7-91ac-946a2df141f0",
+        "meta": {},
+        "type": "LoginCard",
+        "title": "驗證",
+        "width": 4,
+        "height": "unset",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/404",
+    "items": [
+      {
+        "id": "303e32ab-c030-49d6-9756-542cb311537f",
+        "meta": {},
+        "type": "Page404",
+        "title": "頁面找不到",
+        "width": 6,
+        "height": "100px",
+        "disableDelete": true
+      }
+    ]
+  },
+  {
+    "page": "/_open_page",
+    "items": [
+      {
+        "id": "c672e9b2-7d82-4c35-9bbc-4e0ba3223582",
+        "meta": {},
+        "type": "DefaultCard",
+        "title": "關於本頁",
+        "width": 6,
+        "height": "200px"
+      }
+    ]
+  }
+]
